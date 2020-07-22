@@ -1,23 +1,14 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+const logo_url = 'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSmFLh-OJvCrZmvgXIN41zPRqtF6vTqXcRgcw&usqp=CAU';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+          <img src={logo_url} className="App-logo" alt="logo" />
+          <br/>
+          <p>The Anvil</p>
       </header>
     </div>
   );
